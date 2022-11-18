@@ -13,7 +13,7 @@ Just open index.html in your browser.
 
 Static site, just open HTML to run. A basic page to exhibit semantic HTML and best practices with CSS.
 
-Link to working site:
+[Click here to go to working site:](https://tascott.github.io/week-1-task-accessibility/).
 
 ## Screenshot
 
