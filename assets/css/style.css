@@ -1,8 +1,12 @@
+/* Reset entire document padding and margin */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+/* Colour for background of page */
 
 body {
     background-color: #d9dcd6;
@@ -17,6 +21,8 @@ p {
     font-size: 16px;
 }
 
+/* Generic float styles */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -27,6 +33,8 @@ p {
     margin-left: 25px;
 }
 
+/* Header styles */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,14 +42,20 @@ header {
     color: #ffffff;
 }
 
+/* Styles for h1s that are children of the header */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styles for the 'seo' span that are children of h1s that are children of the header */
+
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Nav styling within header - including links */
 
 header nav {
     padding-top: 15px;
@@ -60,6 +74,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Hero (large image below header) styles */
 
 .hero {
     height: 800px;
@@ -70,12 +85,15 @@ header nav ul li {
     background-position: center;
 }
 
+/* Styles for the main content of the document */
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for direct section children of the main element */
 
 main > section {
     margin-bottom: 20px;
@@ -85,6 +103,8 @@ main > section {
     background-color: #0072bb;
     color: #ffffff;
 }
+
+/* And the images in those section elements */
 
 main > section img {
     max-height: 200px;
@@ -115,6 +135,7 @@ main > section h2 {
     text-align: center;
 }
 
+/* Image sizing and styles for 'lead generation' aside */
 
 .benefits img {
     display: block;
@@ -122,8 +143,6 @@ main > section h2 {
     max-width: 150px;
 }
 
-
-/* And the images in those section elements */
 /* Footer styling */
 
 footer {
